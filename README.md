@@ -1,18 +1,36 @@
-# Laboratorio 4 - Teoría de la Computación
+# Laboratorio 4 - Problema 1
 
-Soluciones de los problemas 1 y 2 del Laboratorio 4.
+El programa construye un árbol sintáctico para cada expresión regular, aplica
+el algoritmo de Thompson, genera la imagen del AFN y simula una cadena ingresada
+por el usuario.
 
-## Problema 1 - Algoritmo de Thompson
+## Ejecución
 
-Construcción y simulación de un AFN a partir de expresiones regulares. El
-programa genera una imagen para cada autómata e indica si una cadena es
-aceptada o rechazada.
+```bash
+python3 main.py
+```
 
-[Ver solución del problema 1](../../tree/problema-1)
+Las imágenes se guardan en la carpeta `salida` y se abren automáticamente. Para
+generarlas sin abrirlas:
 
-## Problema 2 - Lema de bombeo
+```bash
+python3 main.py --no-abrir
+```
 
-Demostración de que el lenguaje de las cadenas formadas por la concatenación
-de una cadena consigo misma no es regular.
+También puede usarse un archivo con una cadena por cada expresión:
 
-[Ver solución del problema 2](../../tree/problema-2)
+```bash
+python3 main.py --cadenas cadenas.txt --no-abrir
+```
+
+Una línea vacía o el símbolo `ε` representan la cadena vacía.
+
+## Video de ejecución
+
+Enlace de video:
+
+## Pruebas
+
+```bash
+python3 -m unittest discover -s tests -v
+```

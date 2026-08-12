@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1795" height="470" viewBox="0 0 1795 470">
+<defs>
+<marker id="flecha" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0, 9 3.5, 0 7" fill="#334155"/></marker>
+</defs>
+<style>
+.fondo { fill: #f8fafc; }
+.transicion { fill: none; stroke: #334155; stroke-width: 1.8; }
+.etiqueta { font: 16px sans-serif; text-anchor: middle; fill: #0f172a; stroke: #f8fafc; stroke-width: 5px; paint-order: stroke; }
+.estado { fill: white; stroke: #0f172a; stroke-width: 2.2; }
+.inicial { fill: #dbeafe; }
+.aceptacion { fill: #dcfce7; }
+.nombre { font: 15px sans-serif; text-anchor: middle; fill: #0f172a; }
+.titulo { font: bold 22px sans-serif; fill: #0f172a; }
+.detalle { font: 15px sans-serif; fill: #475569; }
+</style>
+<rect class="fondo" width="1795" height="470"/>
+<text x="30" y="38" class="titulo">AFN 4: 0?(1?)?0*</text>
+<text x="30" y="64" class="detalle">14 estados · 18 transiciones</text>
+<path d="M 112.0 245.0 L 183.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="147.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 112.0 245.0 Q 272.5 91.0 433.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="272.5" y="159.0" class="etiqueta">ε</text>
+<path d="M 237.0 245.0 L 308.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="272.5" y="236.0" class="etiqueta">0</text>
+<path d="M 362.0 245.0 L 433.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="397.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 487.0 245.0 L 558.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="522.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 612.0 245.0 L 683.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="647.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 612.0 245.0 Q 897.5 67.0 1183.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="897.5" y="147.0" class="etiqueta">ε</text>
+<path d="M 737.0 245.0 L 808.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="772.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 737.0 245.0 Q 897.5 91.0 1058.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="897.5" y="159.0" class="etiqueta">ε</text>
+<path d="M 862.0 245.0 L 933.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="897.5" y="236.0" class="etiqueta">1</text>
+<path d="M 987.0 245.0 L 1058.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="1022.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 1112.0 245.0 L 1183.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="1147.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 1237.0 245.0 L 1308.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="1272.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 1362.0 245.0 L 1433.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="1397.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 1362.0 245.0 Q 1522.5 91.0 1683.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="1522.5" y="159.0" class="etiqueta">ε</text>
+<path d="M 1487.0 245.0 L 1558.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="1522.5" y="236.0" class="etiqueta">0</text>
+<path d="M 1585 272.0 C 1585 319.0, 1460 319.0, 1460 272.0" class="transicion" marker-end="url(#flecha)"/><text x="1522.5" y="311.0" class="etiqueta">ε</text>
+<path d="M 1612.0 245.0 L 1683.0 245.0" class="transicion" marker-end="url(#flecha)"/><text x="1647.5" y="236.0" class="etiqueta">ε</text>
+<path d="M 18 245.0 L 58 245.0" class="transicion" marker-end="url(#flecha)"/>
+<text x="18" y="232.0" class="detalle">inicio</text>
+<circle cx="85" cy="245.0" r="27" class="estado inicial"/>
+<text x="85" y="250.0" class="nombre">q0</text>
+<circle cx="210" cy="245.0" r="27" class="estado"/>
+<text x="210" y="250.0" class="nombre">q1</text>
+<circle cx="335" cy="245.0" r="27" class="estado"/>
+<text x="335" y="250.0" class="nombre">q2</text>
+<circle cx="460" cy="245.0" r="27" class="estado"/>
+<text x="460" y="250.0" class="nombre">q3</text>
+<circle cx="585" cy="245.0" r="27" class="estado"/>
+<text x="585" y="250.0" class="nombre">q4</text>
+<circle cx="710" cy="245.0" r="27" class="estado"/>
+<text x="710" y="250.0" class="nombre">q5</text>
+<circle cx="835" cy="245.0" r="27" class="estado"/>
+<text x="835" y="250.0" class="nombre">q6</text>
+<circle cx="960" cy="245.0" r="27" class="estado"/>
+<text x="960" y="250.0" class="nombre">q7</text>
+<circle cx="1085" cy="245.0" r="27" class="estado"/>
+<text x="1085" y="250.0" class="nombre">q8</text>
+<circle cx="1210" cy="245.0" r="27" class="estado"/>
+<text x="1210" y="250.0" class="nombre">q9</text>
+<circle cx="1335" cy="245.0" r="27" class="estado"/>
+<text x="1335" y="250.0" class="nombre">q10</text>
+<circle cx="1460" cy="245.0" r="27" class="estado"/>
+<text x="1460" y="250.0" class="nombre">q11</text>
+<circle cx="1585" cy="245.0" r="27" class="estado"/>
+<text x="1585" y="250.0" class="nombre">q12</text>
+<circle cx="1710" cy="245.0" r="27" class="estado aceptacion"/>
+<circle cx="1710" cy="245.0" r="22" fill="none" stroke="#0f172a" stroke-width="2"/>
+<text x="1710" y="250.0" class="nombre">q13</text>
+</svg>

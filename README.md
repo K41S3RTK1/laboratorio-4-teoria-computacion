@@ -27,7 +27,7 @@ Una línea vacía o el símbolo `ε` representan la cadena vacía.
 
 ## Video de ejecución
 
-Enlace de video:
+Enlace de video: [https://youtu.be/xMtrpEK9RGg](https://youtu.be/xMtrpEK9RGg)
 
 ## Pruebas
 
